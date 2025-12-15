@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Oscar Marcia | Portfolio</title>
+    <meta name="description" content="Software portfolio featuring WalkGo and Grupo Agropec Management." />
+    <meta property="og:title" content="Oscar Marcia | Portfolio" />
+    <meta property="og:description" content="Software portfolio featuring WalkGo and Grupo Agropec Management." />
+    <meta property="og:image" content="assets/og-image.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="#top">
+          <span class="brand__dot"></span>
+          <span class="brand__name">Oscar Marcia</span>
+        </a>
+
+        <nav class="nav">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <button class="theme" id="themeToggle" type="button" aria-label="Toggle theme">
+            <span class="theme__icon" aria-hidden="true">☾</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__copy">
+            <h1>Building practical apps with clean UX and solid architecture.</h1>
+            <p class="sub">
+              Here are the projects I've developed: <strong>WalkGo</strong> and <strong>Grupo Agropec Management</strong>.
+            </p>
+
+            <div class="cta">
+              <a class="btn btn--primary" href="#projects">View projects</a>
+              <a class="btn btn--ghost" href="https://github.com/OtalTheMad" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+            </div>
+
+            <div class="meta">
+              <div class="meta__item">
+                <span class="meta__label">Focus</span>
+                <span class="meta__value">Mobile • Backend • Data</span>
+              </div>
+              <div class="meta__item">
+                <span class="meta__label">Stack</span>
+                <span class="meta__value">Java • Spring • Android • .NET • C#</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__card">
+            <div class="hero__cardInner">
+              <p class="hero__cardTitle">Quick links</p>
+              <div class="quicklinks">
+                <a class="quicklinks__item" href="#walkgo">
+                  <span class="quicklinks__k">01</span>
+                  <span class="quicklinks__t">WalkGo</span>
+                </a>
+                <a class="quicklinks__item" href="#grupo">
+                  <span class="quicklinks__k">02</span>
+                  <span class="quicklinks__t">Grupo Agropec Management</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+
+          <article class="project" id="walkgo">
+            <div class="project__header">
+              <div>
+                <h3>WalkGo</h3>
+                <p class="project__desc">
+                  A fitness tracker ecosystem focused on walking/running stats, user profiles, and rankings.
+                </p>
+              </div>
+
+              <div class="project__links">
+                <a class="link" href="https://github.com/OtalTheMad/walkgo" target="_blank" rel="noreferrer">
+                  Repo
+                </a>
+                <a class="link" href="https://github.com/OtalTheMad/walkgo/releases/download/v1.1.0/walkgo-release-111.apk" target="_blank" rel="noreferrer">
+                  Live/Demo
+                </a>
+              </div>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Android</span>
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">JWT</span>
+            </div>
+
+            <div class="project__grid">
+              <div class="shot shot--vertical">
+                <img src="assets/1.jpeg" alt="WalkGo screenshot 1" loading="lazy" />
+              </div>
+              <div class="shot shot--vertical">
+                <img src="assets/2.jpeg" alt="WalkGo screenshot 2" loading="lazy" />
+              </div>
+              <div class="shot shot--vertical">
+                <img src="assets/3.jpeg" alt="WalkGo screenshot 3" loading="lazy" />
+              </div>
+            </div>
+
+            <div class="project__details">
+              <div class="detail">
+                <p class="detail__title">Highlights</p>
+                <ul class="detail__list">
+                  <li>Profile + stats experience designed for fast “at-a-glance” progress.</li>
+                  <li>Backend API structure with authentication and clean data boundaries.</li>
+                  <li>Expandable foundation for friends/rankings and future analytics.</li>
+                </ul>
+              </div>
+
+              <div class="detail">
+                <p class="detail__title">Your next additions</p>
+                <ul class="detail__list">
+                  <li>Replace screenshots in <code>assets/</code> keeping 9:16 aspect ratio.</li>
+                  <li>Update repo + demo links above.</li>
+                  <li>Add a short “results” metric (users, sessions, performance wins).</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="project" id="grupo">
+            <div class="project__header">
+              <div>
+                <h3>Grupo Agropec Management</h3>
+                <p class="project__desc">
+                  A management system built to organize operations, records, and day-to-day workflows for an agropec business.
+                </p>
+              </div>
+
+              <div class="project__links">
+                <a class="link" href="https://github.com/OtalTheMad/grupo-agropec-management" target="_blank" rel="noreferrer">
+                  Repo
+                </a>
+                <a class="link" href="https://github.com/OtalTheMad/grupo-agropec-management/releases/download/releasev.1005/Servicios.Agropec.Gestion.zip" target="_blank" rel="noreferrer">
+                  Live/Demo
+                </a>
+              </div>
+            </div>
+
+            <div class="tags">
+              <span class="tag">C#</span>
+              <span class="tag">.NET</span>
+              <span class="tag">WPF</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">Reporting</span>
+            </div>
+
+            <!-- <div class="project__grid project__grid--wide">
+              <div class="shot shot--horizontal">
+                <img src="assets/grupo-1-horizontal.jpg" alt="Grupo Agropec Management screenshot 1" loading="lazy" />
+              </div>
+              <div class="shot shot--horizontal">
+                <img src="assets/grupo-2-horizontal.jpg" alt="Grupo Agropec Management screenshot 2" loading="lazy" />
+              </div>
+              <div class="shot shot--horizontal">
+                <img src="assets/grupo-3-horizontal.jpg" alt="Grupo Agropec Management screenshot 3" loading="lazy" />
+              </div>
+            </div> -->
+
+            <div class="project__details">
+              <div class="detail">
+                <p class="detail__title">Highlights</p>
+                <ul class="detail__list">
+                  <li>Desktop-first workflows for speed, accuracy, and clarity.</li>
+                  <li>Local data persistence and reliable “offline-friendly” usage.</li>
+                  <li>Room for reporting dashboards and exportable summaries.</li>
+                </ul>
+              </div>
+
+              <div class="detail">
+                <p class="detail__title">Problem → Solution</p>
+                    <p class="detail_list">In a business where tracking expenses and inventory was a requirement, this software came to the rescue. With different modules and scalability that allows it to grow based on need, this piece of software allowed the business to generate invoices, calculate monthly revenue and track inventory assets with seemless effort.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="about">
+        <div class="container about">
+          <div class="about__copy">
+            <h2>About</h2>
+            <p>
+              I build software with a product mindset: clean interfaces, reliable data flows, and code that can evolve.
+              I’m especially focused on systems that track metrics, manage records, and deliver value fast.
+            </p>
+
+            <div class="about__grid">
+              <div class="about__card">
+                <p class="about__k">What I like shipping</p>
+                <p class="about__v">Desktop tools, APIs, mobile apps, and reporting flows</p>
+              </div>
+              <div class="about__card">
+                <p class="about__k">What I optimize</p>
+                <p class="about__v">Data integrity, UX clarity, performance, and maintainability</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__side">
+            <div class="profile">
+              <div class="profile__avatar" aria-hidden="true"></div>
+              <p class="profile__name">Oscar Marcia</p>
+              <p class="profile__role">Software Developer</p>
+
+              <div class="profile__links">
+                <a class="btn btn--primary btn--small" href="https://github.com/OtalTheMad" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn btn--ghost btn--small" href="https://www.linkedin.com/in/oscar-marc%C3%ADa-6b3b8a205" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact">
+          <div class="section__head">
+            <h2>Contact</h2>
+          </div>
+
+          <div class="contact__grid">
+            <a class="contact__card" href="mailto:omme7519@outlook.com">
+              <p class="contact__k">Email</p>
+              <p class="contact__v">omme7519@outlook.com</p>
+            </a>
+
+            <a class="contact__card" href="https://github.com/OtalTheMad" target="_blank" rel="noreferrer">
+              <p class="contact__k">GitHub</p>
+              <p class="contact__v">@OtalTheMad</p>
+            </a>
+
+            <a class="contact__card" href="https://www.linkedin.com/in/oscar-marc%C3%ADa-6b3b8a205" target="_blank" rel="noreferrer">
+              <p class="contact__k">LinkedIn</p>
+              <p class="contact__v">Oscar Marcia</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Oscar Marcia</p>
+        <a href="#top" class="link">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
